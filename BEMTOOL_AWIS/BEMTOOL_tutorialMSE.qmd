@@ -68,7 +68,7 @@ SEAwise Github </a>
 
 <!-- start of the script -->
 
-## Introduction{.tabset} 
+# Introduction
 BEMTOOL is an integrated bioeconomic modelling tool that follows a multi-fleet and multiple species approach, simulating the effects of management scenarios on stocks and fisheries ([Rossetto et al. (2015)](https://www.sciencedirect.com/science/article/abs/pii/S0308597X1400298X) and [Bitetto et al.(2025)](https://cdnsciencepub.com/doi/10.1139/cjfas-2024-0382)). Such effects in mixed fisheries are measured by a suite of indicators with associated uncertainty. 
 BEMTOOL was previously implemented, within FAIRSEA project (https://www.italy-croatia.eu/web/fairsea), in the Adriatic and western Ionian Seas (GFCM Geographical Sub Areas - GSAs 17, 18 and 19, Figure 1) to inform and support the modelling of indicators, targets and limits, linked to the management of key stocks: European hake (HKE), red mullet (MUT) and deep water rose shrimp (DPS). 
 
@@ -232,7 +232,7 @@ library(ALADYMTools)
 
 ```
 
-# Launching the model and running the simulation part from the GUI
+# Launching the model and running the simulation part from the GUI {.tabset} 
 
 Pay attention to copy on C disk the folder Training as it is.
 
@@ -313,7 +313,7 @@ kable(df, align = c("l","l")) %>%
 
 ```
 
-# Comparison with the stock assessment results
+## Comparison with the stock assessment results
 
 BEMTOOL utilises the main stock assessment input and results to replicate the stocks by month.
 
@@ -358,7 +358,7 @@ Figure 3 - Example of stock replicated from SS3 stock assessment results
 
 ```
 
-## Running forecast
+# Running forecast{.tabset} 
 
 Once that the diagnosis was loaded, click on "Load scenario configuration" and select the file bmtconfigForecast.csv. It is set a SQ scenario.
 
@@ -429,7 +429,7 @@ head(ENV)
 
 This table could potentially contain different values for each month in the year.
 
-# Modify RFSS script with the coefficients of the EMSRR
+## Modify RFSS script with the coefficients of the EMSRR
 
 In the function containing the equations of the SRR, we included all the coefficients by stock except a and b (that are in the grid defined above). 
 
@@ -464,7 +464,7 @@ para_RLd=  -0.424   # dps
 
 ```
 
-# Running the climate change scenarios
+## Running the climate change scenarios
 
 Come back to the BEMTOOL GUI and, clicking on "Load scenario configuration" button, you can select the file "INPUT/bmtconfigForecast.csv".
 

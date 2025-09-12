@@ -328,7 +328,7 @@ Figure 3 - Example of stock replicated from SS3 stock assessment results
 
 ```
 
-## Running forecast
+# Running forecast
 
 Once that the diagnosis was loaded, click on "Load scenario configuration" and select the file bmtconfigForecast.csv. It is set a SQ scenario.
 
@@ -350,7 +350,7 @@ Several management strategies can be simulated in BEMTOOL, also in combination w
   <img src="smartGUI.png" width="90%">
 </p>
 
-## How to integrate climate change through EMSRR
+# How to integrate climate change through EMSRR
 
 To integrate the environmental variables, and then the climate, on the stock recruitment relationships and in the projections, SEAwise BEMTOOL model built on the work made in WP3, described in  [Bitetto et al.(2025)](https://cdnsciencepub.com/doi/10.1139/cjfas-2024-0382). 
 
