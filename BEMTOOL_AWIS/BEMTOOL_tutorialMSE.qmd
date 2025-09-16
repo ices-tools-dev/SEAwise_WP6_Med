@@ -234,6 +234,8 @@ library(ALADYMTools)
 
 # Launching the model and running the simulation part from the GUI {.tabset} 
 
+Make sure your PC’s locale settings are: ‘;’ as the list separator, ‘.’ as the decimal separator, and a space as the digit-grouping (thousands) separator.
+
 Pay attention to copy on C disk the folder Training as it is.
 
 Then copy in the console the code below, updating your working directory path.
@@ -408,19 +410,19 @@ ALADYM_spe=1
 
 if(BMT_SPECIES[ALADYM_spe]=="M.mer1718" ){
   
-  ENV<<-read.table("C:\\Training\\INPUT\\ENVIRONMENTAL_GRIDS\\HKE1718_50_500_NoCC_bia_adj_month.csv",sep=";",header=T)  
+  ENV<<-read.table("C:\\Training\\Adriatic_INPUT\\ENVIRONMENTAL_GRIDS\\HKE1718_50_500_NoCC_bia_adj_month.csv",sep=";",header=T)  
   
 } else if (BMT_SPECIES[ALADYM_spe]=="M.mer19" ){
-  ENV<<-read.table("C:\\Training\\INPUT\\ENVIRONMENTAL_GRIDS\\HKE19_50_500_NoCC_bia_adj_month_2.csv",sep=";",header=T)  
+  ENV<<-read.table("C:\\Training\\Adriatic_INPUT\\ENVIRONMENTAL_GRIDS\\HKE19_50_500_NoCC_bia_adj_month_2.csv",sep=";",header=T)  
   
 } else if (BMT_SPECIES[ALADYM_spe]=="M.bar1718" ){
-  ENV<<-read.table("C:\\Training\\INPUT\\ENVIRONMENTAL_GRIDS\\MUT1718_10-200_NoCC_bia_adj_month.csv",sep=";",header=T)  
+  ENV<<-read.table("C:\\Training\\Adriatic_INPUT\\ENVIRONMENTAL_GRIDS\\MUT1718_10-200_NoCC_bia_adj_month.csv",sep=";",header=T)  
   
 } else if (BMT_SPECIES[ALADYM_spe]=="M.bar19" ){
-  ENV<<-read.table("C:\\Training\\INPUT\\ENVIRONMENTAL_GRIDS\\MUT19_10_200_NoCC_bia_adj_month.csv",sep=";",header=T)  
+  ENV<<-read.table("C:\\Training\\Adriatic_INPUT\\ENVIRONMENTAL_GRIDS\\MUT19_10_200_NoCC_bia_adj_month.csv",sep=";",header=T)  
   
 } else if (BMT_SPECIES[ALADYM_spe]=="P.lon171819" ){
-  ENV<<-read.table("C:\\Training\\INPUT\\ENVIRONMENTAL_GRIDS\\DPS17181920_50_500_NoCC_bia_adj_month.csv",sep=";",header=T)  
+  ENV<<-read.table("C:\\Training\\Adriatic_INPUT\\ENVIRONMENTAL_GRIDS\\DPS17181920_50_500_NoCC_bia_adj_month.csv",sep=";",header=T)  
 }
 
 head(ENV)
