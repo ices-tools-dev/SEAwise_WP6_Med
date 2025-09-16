@@ -1,0 +1,71 @@
+Parameters;Distribution;Min;Max;A;B;;;;;;;;;;;;;;;;
+Scientific name;M. merluccius;;;;;;;;;;;;;;;;;;;;
+Common name;European hake;;;;;;;;;;;;;;;;;;;;
+GSA;19;;;;;;;;;;;;;;;;;;;;
+start - end simulation - end forecast;1998;2022;2050;;;;;;;;;;;;;;;;;;
+Years to be presimulated;45;;;;;;;;;;;;;;;;;;;;
+Number of years for average;19;;;;;;;;;;;;;;;;;;;;
+gears;;;;;;;;;;;;;;;;;;;;;
+Sex ratio;0.5;;;;;;;;;;;;;;;;;;;;
+L-W parameters - Male;;;;3.00E-06;3.1;;;;;;;;;;;;;;;;
+L-W parameters - Female;;;;4.00E-06;3.1;;;;;;;;;;;;;;;;
+Lifespan - Male;21;;;;;;;;;;;;;;;;;;;;
+Lifespan - Female;21;;;;;;;;;;;;;;;;;;;;
+Growth T0 - Male;3;-0.7295;-0.7295;;;;;;;;;;;;;;;;;;
+Growth T0 - Female;3;-0.5969;-0.5969;;;;;;;;;;;;;;;;;;
+Growth K - Male;3;0.1453;0.1453;;;;;;;;;;;;;;;;;;
+Growth K - Female;3;0.1025;0.1025;;;;;;;;;;;;;;;;;;
+Growth Linf - Male;3;730;730;;;;;;;;;;;;;;;;;;
+Growth Linf - Female;3;1110;1110;;;;;;;;;;;;;;;;;;
+Maturity Ogive L50 - Male;3;170;170;0;0;;;;;;;;;;;;;;;;
+Maturity Ogive L75L25 - Male;3;20;20;0;0;;;;;;;;;;;;;;;;
+Maturity Ogive L50 - Female;3;250;250;0;0;;;;;;;;;;;;;;;;
+Maturity Ogive L75L25 - Female;3;20;20;0;0;;;;;;;;;;;;;;;;
+Offspring R;3;76443;76443;0;0;;;;;;;;;;;;;;;;
+Offspring proportion;0.048;0.048;0.144;0.144;0.068;0.048;0.01;0.01;0.144;0.144;0.106;0.086;;;;;;;;;
+Recruitment file;C:\Training\INPUT\ALADYM\HKE gsa 19\Recruitment.csv;;;;;;;;;;;;;;;;;;;;
+Recruitment calibration;FALSE;;;;;;;;;;;;;;;;;;;;
+Tr;3;;;;;;;;;;;;;;;;;;;;
+Spawners;2;1;;;;;;;;;;;;;;;;;;;
+CI calculation;FALSE;30;1;1;;;;;;;;;;;;;;;;;
+CI error distribution;4;;;1;1;;;;;;;;;;;;;;;;
+CI error file;;;;;;;;;;;;;;;;;;;;;
+Age range of F calculated - Male;;0;4;;;;;;;;;;;;;;;;;;
+Age range of F calculated - Female;;0;4;;;;;;;;;;;;;;;;;;
+M file - Male;C:\Training\INPUT\ALADYM\HKE gsa 19\M.csv;;;;;;;;;;;;;;;;;;;;
+M file - Female;C:\Training\INPUT\ALADYM\HKE gsa 19\M.csv;;;;;;;;;;;;;;;;;;;;
+Mortality type;Z;;;;;;;;;;;;;;;;;;;;
+Z file;C:\Training\INPUT\ALADYM\HKE gsa 19\Zmax.csv;;;;;;;;;;;;;;;;;;;;
+F type;;[allowed values: F, O];;;;;;;;;;;;;;;;;;;
+F file;;;;;;;;;;;;;;;;;;;;;
+F overall file;;;;;;;;;;;;;;;;;;;;;
+Catch by age for splitting file;;;;;;;;;;;;;;;;;;;;;
+Selectivity type;P;P;P;P;P;P;;;;;;;;;;;;;;;[allowed values: P, A, L]
+Selectivity file;C:\Training\INPUT\ALADYM\HKE gsa 19\Selectivity.csv;;;;;;;;;;;;;;;;;;;;
+Selectivity file by age;;;;;;;;;;;;;;;;;;;;;
+Selectivity file by length;;;;;;;;;;;;;;;;;;;;;
+Production type;;;;;;;;;;;;;;;;;;;;;
+Production file;;;;;;;;;;;;;;;;;;;;;
+Discard file;;;;;;;;;;;;;;;;;;;;;
+P production file;;;;;;;;;;;;;;;;;;;;;
+Effort type;;;;;;;;;;;;;;;;;;;;;
+Effort data file;;;;;;;;;;;;;;;;;;;;;
+Fishing coefficient file;;;;;;;;;;;;;;;;;;;;;
+Effort - F relationship;L;;;;;;;;;;;;;;;;;;;;[allowed values: L,  P]
+Effort - F relationship a;0;;;;;;;;;;;;;;;;;;;;
+Effort - F relationship b;1;;;;;;;;;;;;;;;;;;;;
+Discard component;NA;;;;;;;;;;;;;;;;;;;;[allowed values: Y,0,NA]
+Discard type;NA;;;;;;;;;;;;;;;;;;[allowed values: V,RO];;
+External Discard vector file;;;;;;;;;;;;;;;;;;;;;
+Reverse-ogive Discard file;;;;;;;;;;;;;;;;;;;;;
+Landing obligation file;;;;;;;;;;;;;;;;;;;;;
+Survivability proportion;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;;;;;;;;;
+Discard survivability component;N;;;;;;;;;;;;;;;;;;;;[allowed values: Y,N]
+Discard survivability type;NA;;;;;;;;;;;;;;;;;;;;[allowed values: C,DOS]
+Discard survivability parameters_F1;;;;;;;;;;;;;;;;;;;;;[1st cell: males/param1, 2nd cell: females/param2]
+Escape survivability component;N;;;;;;;;;;;;;;;;;;;;[allowed values: Y,N]
+Escape survivability type;NA;;;;;;;;;;;;;;;;;;;;[allowed values: C,DOS]
+Escape survivability costant parameters_F1;;;;;;;;;;;;;;;;;;;;;[1st cell: males/param1, 2nd cell: females/param2]
+Escape survivability DOS type;NA;;;;;;;;;;;;;;;;;;;;[allowed values: O,V]
+DOS Escape survivability Ogive parameters_F1;;;;;;;;;;;;;;;;;;;;;
+DOS External Escape survivability vector file;;;;;;;;;;;;;;;;;;;;;

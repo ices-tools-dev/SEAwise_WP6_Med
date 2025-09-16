@@ -1,0 +1,72 @@
+Parameters;Distribution;Min;Max;A;B;;;;;;;;;
+Scientific name;P. longirostris;;;;;;;;;;;;;
+Common name;Pink shrimp;;;;;;;;;;;;;
+GSA;17-18-19;;;;;;;;;;;;;
+start - end simulation - end forecast;1998;2022;2060;;;;;;;;;;;
+Years to be presimulated;12;;;;;;;;;;;;;
+Number of years for average;1;;;;;;;;;;;;;
+gears;;;;;;;;;;;;;;
+Sex ratio;0.5;;;;;;;;;;;;;
+L-W parameters - Male;;;;0.002;2.5;;;;;;;;;
+L-W parameters - Female;;;;0.002;2.5;;;;;;;;;
+Lifespan - Male;4;;;;;;;;;;;;;
+Lifespan - Female;4;;;;;;;;;;;;;
+Growth T0 - Male;3;-0.2;-0.2;;;;;;;;;;;
+Growth T0 - Female;3;-0.2;-0.2;;;;;;;;;;;
+Growth K - Male;3;0.6;0.6;0;0;;;;;;;;;
+Growth K - Female;3;0.6;0.6;0;0;;;;;;;;;
+Growth Linf - Male;3;45;45;0;0;;;;;;;;;
+Growth Linf - Female;3;45;45;0;0;;;;;;;;;
+Maturity Ogive L50 - Male;3;18;18;0;0;;;;;;;;;
+Maturity Ogive L75L25 - Male;3;2;2;0;0;;;;;;;;;
+Maturity Ogive L50 - Female;3;14;14;0;0;;;;;;;;;
+Maturity Ogive L75L25 - Female;3;2;2;0;0;;;;;;;;;
+Offspring R;3;730047;730047;0;0;;;;;;;;;
+Offspring proportion;0;0;0;0.1;0.1;0.2;0.2;0.1;0.1;0.2;0;0;;
+Recruitment file;C:\Training\INPUT\ALADYM\DPS GSA 17-18-19\Recruitment.csv;;;;;;;;;;;;;
+Recruitment calibration;FALSE;;;;;;;;;;;;;
+Tr;3;;;;;;;;;;;;;
+Spawners;2;1;;;;;;;;;;;;
+CI calculation;FALSE;30;1;1;;;;;;;;;;
+CI error distribution;4;;;1;1;;;;;;;;;
+CI error file;;;;;;;;;;;;;;
+Age range of F calculated - Male;;0;2;;;;;;;;;;;
+Age range of F calculated - Female;;0;2;;;;;;;;;;;
+M file - Male;C:\Training\INPUT\ALADYM\DPS GSA 17-18-19\M.csv;;;;;;;;;;;;;
+M file - Female;C:\Training\INPUT\ALADYM\DPS GSA 17-18-19\M.csv;;;;;;;;;;;;;
+Mortality type;Z;;;;;;;;;;;;;
+Z file;C:\Training\INPUT\ALADYM\DPS GSA 17-18-19\Zmean.csv;;;;;;;;;;;;;
+F type;;[allowed values: F, O];;;;;;;;;;;;
+F splitting type;;;;;;;;;;;;;;
+F file;;;;;;;;;;;;;;
+F overall file;;;;;;;;;;;;;;
+Catch by age for splitting file;;;;;;;;;;;;;;
+Selectivity type;P;P;P;P;P;P;P;P;P;P;P;P;P;[allowed values: L, P]
+Selectivity file;C:\Training\INPUT\ALADYM\DPS GSA 17-18-19\Selectivity.csv;;;;;;;;;;;;;
+Selectivity file by age;;;;;;;;;;;;;;
+Selectivity file by length;;;;;;;;;;;;;;
+Production type;;;;;;;;;;;;;;
+Production file;;;;;;;;;;;;;;
+Discard file;;;;;;;;;;;;;;
+P production file;;;;;;;;;;;;;;
+Effort type;;;;;;;;;;;;;;
+Effort data file;;;;;;;;;;;;;;
+Fishing coefficient file;;;;;;;;;;;;;;
+Effort - F relationship;L;;;;;;;;;;;;;[allowed values: L, P]
+Effort - F relationship a;0;;;;;;;;;;;;;
+Effort - F relationship b;1;;;;;;;;;;;;;
+Discard component;NA;;;;;;;;;;;;;[allowed values: Y, 0, NA]
+Discard type;;;;;;;;;;;;;;[allowed values: V, RO]
+External Discard vector file;;;;;;;;;;;;;;
+Reverse-ogive Discard file;;;;;;;;;;;;;;
+Landing obligation file;;;;;;;;;;;;;;
+Survivability proportion;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;;
+Discard survivability component;N;;;;;;;;;;;;;[allowed values: Y, N]
+Discard survivability type;NA;;;;;;;;;;;;;[allowed values: C, DOS]
+Discard survivability parameters_F1;;;;;;;;;;;;;;[1st cell: males/param1, 2nd cell: females/param2]
+Escape survivability component;N;;;;;;;;;;;;;[allowed values: Y, N]
+Escape survivability type;NA;;;;;;;;;;;;;[allowed values: C, DOS]
+Escape survivability costant parameters_F1;;;;;;;;;;;;;;[1st cell: males, 2nd cell: females]
+Escape survivability DOS type;NA;;;;;;;;;;;;;[allowed values: O, V]
+DOS Escape survivability Ogive parameters_F1;;;;;;;;;;;;;;
+DOS External Escape survivability vector file;;;;;;;;;;;;;;
